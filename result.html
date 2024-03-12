@@ -54,40 +54,6 @@
     font-size: 86px;
     font-variant: petite-caps;"><b>Reviews Report</b></h1>
 
-    <div style='text-align: center;width: 65%;margin: 0 auto;border-radius: 2.25rem;margin-top: 30px;'>
-        <p style='padding-top: 5px;
-        padding-bottom: 5px;
-        border-radius: 1.25rem;
-        width: 100%;
-        background-color: antiquewhite;
-        font-weight: bold;
-        text-align: left;
-        margin: 0 auto;
-        padding-left: 20px;
-        margin-bottom: 30px;
-    '>Product Name: {{ proname }}
-            <br>
-            Price: {{ price }}</p>
-    </div>
-
-   
-
-    <div class='row'>
-        <div class='col-md-6'
-            style='text-align: center;width: 57%;margin: 0 auto;border-radius: 2.25rem;margin-top: 30px;'>
-            <p
-                style='padding-top: 5px;padding-bottom: 5px;border-radius: 1.25rem;width: 50%;background-color: palegreen;font-weight: bold;margin: 0 auto;'>
-                POSITIVE REVIEWS -->{{np}}/{{n}}</p>
-        </div>
-
-        <div class='col-md-6'
-            style='text-align: center;width: 57%;margin: 0 auto;border-radius: 2.25rem;margin-top: 30px;'>
-            <p
-                style="padding-top: 5px;padding-bottom: 5px;width: 50%;background-color: indianred;font-weight: bold;margin: 0 auto;border-radius: 1.25rem;">
-                NEGATIVE REVIEWS --> {{nn}}/{{n}}</p>
-        </div>
-    </div>
-
 
     {% for obj in dic %}
     <div class="card my-5 " style="max-width: 1000px;">
