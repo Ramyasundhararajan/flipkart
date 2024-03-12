@@ -47,26 +47,8 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="/">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-
-            <li class="nav-item">
-                <a class="nav-link" href="/wc" target="_blank">Wordcloud</a>
-            </li>
-             <li class="nav-item">
-                <a class="nav-link" href="https://github.com/Abhishekjm-26/Product_Recommendation" target="_blank">Github</a>
-            </li>
-
-        </div>
-    </nav>
-
+    
+   
 
     <h1 class='text-center py-3' style="color: antiquewhite;
     font-size: 86px;
@@ -88,23 +70,7 @@
             Price: {{ price }}</p>
     </div>
 
-    <div style="    text-align: center;width: 77%;margin: 0 auto;">
-        <h2 style='background-color: antiquewhite;
-        font-size: 29px;
-        border-radius: 1.25rem;
-        padding: 10px;'>
-        <script language= JavaScript>
-	        var n = parseInt("{{n}}");
-	        var np = parseInt("{{np}}");
-	        if(np >= (0.6*n)){
-	        	document.write("<b>Based on the below top {{ n }} reviews of the product on Flipkart. We Recommend this product</b>");
-	        }
-	        else{
-	        	document.write("<b>Based on the below top {{ n }} reviews of the product on Flipkart. We Don't Recommend this product</b>");
-	        }
-        </script>
-        </h2>
-    </div>
+   
 
     <div class='row'>
         <div class='col-md-6'
